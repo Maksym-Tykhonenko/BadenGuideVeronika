@@ -1,16 +1,16 @@
 workflows:
   sample-workflow:
-    name: Spa Baden Guide
+    name: Relax Baden Guide
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: Spa Baden Guide API key
+      app_store_connect: RelaxBadenGuideAPIKey
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.SpaBadenGuide2025
       vars:
-        APP_STORE_APPLE_ID: 6743078328 #change
+        APP_STORE_APPLE_ID: 6744813796 #change
         BUNDLE_ID: 'com.SpaBadenGuide2025'
         XCODE_WORKSPACE: 'SpaBadenGuide.xcworkspace'
         XCODE_SCHEME: 'SpaBadenGuide'
@@ -50,4 +50,4 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_app_store: true
-        copyright: Spa Baden Guide 2025
+        copyright: Relax Baden Guide 2025
